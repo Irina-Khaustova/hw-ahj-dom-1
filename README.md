@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/738dveto4pm8q05l?svg=true)](https://ci.appveyor.com/project/Irina-Khaustova/hw-ahj-dom-1)
