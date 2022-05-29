@@ -5,7 +5,7 @@ export function createGamePlay(n) {
   const container = document.createElement('div');
   container.classList.add('container');
   document.body.append(container);
-  for (let i = 1; i <= n * n; i += 1) {
+  for (let i = 0; i < n * n; i += 1) {
     const elem = document.createElement('div');
     elem.classList.add('element', `element${i}`);
     container.append(elem);
@@ -13,7 +13,7 @@ export function createGamePlay(n) {
 }
 
 export function createNumber(number) {
-  return Math.floor(Math.random() * (number * number));
+  return Math.floor(Math.random() * ((number * number) - 1));
 }
 
 export function createImage(n) {
