@@ -1,3 +1,4 @@
-test('empty stub test', () => {
-  expect(1).toBe(1);
+test('test', () => {
+  const received = 2;
+  expect(received).toBe(2);
 });

@@ -1,6 +1,6 @@
 import './css/style.css';
 
-import './js/__tests__/test';
+// import './js/__tests__/test';
 
 import './js/GamePlay';
 
